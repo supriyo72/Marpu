@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 15px 0px;
+}
+.cont h1{
+    font-family: initial;
+    font-size: 68px;
+    margin-top: 0px;
+    padding: 10px 0px;
+    color: black;
+}
+.edit li a{
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: fantasy;
+    color: rgb(63, 92, 154);
+    font-size: 23px;
+}
+.edit li a:hover{
+    color: rgb(2, 1, 1);
+    font-size: 20px;
+}
+.edit{
+    background-color: #ffd6d6;
+    height: 100vh;
+}
+.edittt{
+    background-color: #ffcbcb;
+    width: 50%;
+    margin: auto;
+    height: 430px;
+}
+.edittt p{
+    background-color: #f4afaf;
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #6f6969;
+}
+.edittt li{
+    margin-top: 30px;
+    font-size: 25px;
+}

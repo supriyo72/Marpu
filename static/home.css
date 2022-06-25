@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+.boxx{
+    display: flex;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 12px;
+    color: rgb(247, 243, 243);
+    font-family: fantasy;
+    font-size: 30px;
+    margin-right: 55px;
+}
+#logo img{
+    height: 50px;
+}
+/* #navbar{
+    display: flex;
+    background-color: #3d4865;
+    padding: 15px 14px;
+} */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    padding:30px ;
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(194 117 117);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+.navedit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.navbaredit{
+    display: flex;
+}
+/* #navbar li{
+    list-style: none;
+} */
+
+#navbar h1{
+    padding: 18px 40px;
+    font-family: monospace;
+    color: #870000;
+    font-size: 40px;
+}
+/* #navbar li a:hover{
+    color: rgb(2, 1, 1);
+    font-size: 20px;
+} */
+#container{
+    background-color:#fcd4d4;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    /* height: 500px; */
+}
+.box{
+    background-color: aqua;
+}
+.form{
+    background-color: rgb(154 172 179);
+    /* margin: 10px 367px; */
+    border: 2px solid;
+    margin-top: 14px;
+    margin-bottom: 19px;
+    /* width: 20%; */
+    border-radius: 11px;
+    background-color:rgb(255 176 176);
+}
+.form h3{
+    font-size: 19px;
+    padding: 12px;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+    color: #870000;
+}
+.form li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px solid;
+    background-color: #ffc2c2;
+}
+.form ul{
+    margin-top: 70px;
+}
+#container h1{
+    font-family: monospace;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20Px;
+    color: #870000
+
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 32%;
+    height: 290px;
+    margin: 19px 23px;
+    display: inline-block;
+    background-color: rgb(255 143 143);
+    
+
+}
+.card h3{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: brown;
+    font-size: 19px;
+    /* padding: 4px 15px; */
+    margin: 12px;
+    
+}
+
+.cardbox{
+    align-items: center;
+    height: 185px;
+    background-color: #ffc1c1;
+    
+}
+.card img{
+    height: 120px;
+    padding: 3px 8px;
+    margin: 2px 6px;
+}
+.card img{
+    height: inherit;
+}
+footer {
+  background-color: #fcd4d4;
+  display: flex;
+  width: 100%;
+  text-transform: capitalize;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top:0px;
+  height: 215px;
+}
+
+.column {
+  width: 25%;
+  float: left;
+  padding: 20px;
+
+}
+#logoo img{
+    height: 50px;
+}
+.column {
+    display: contents;
+}
+.column ul{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+.column ul li a {
+    font-size: 35px;
+    margin: 10px;
+    padding: 10px;
+    color: #870000;
+}
+.column h3{
+    font-size: 35px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+#missionsection{
+    /* height: 100vh; */
+    margin: auto;
+    width: 100%;
+    font-size: 30px;
+    background-color: #eebaba;
+    margin-top: 0px;
+}
+#missionsection h1{
+    font-family: monospace;
+    text-align: center;
+    padding-top: 10px;
+    /* font-size: 36px; */
+    /* margin: auto; */
+    color: #870000;
+
+}
+.cardbb{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 35%;
+    height: 290px;
+    margin: 19px 23px;
+    display: inline-block;
+    background-color: #f88f8f;
+    
+
+}
+.cardbb h3{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: brown;
+    font-size: 19px;
+    /* padding: 4px 15px; */
+    margin: 12px;
+    
+}
+
+.cardbb-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    height: 200px;
+    background-color: #ffbbbb;
+    
+}
+.cardbb-img{
+    height: 120px;
+    padding: 3px 8px;
+    margin: 2px 6px;
+}
+.cardbb-img img{
+    height: inherit;
+}
+.cardbb-content{
+    padding: 0px 3px;
+}
+.cardbb-content p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+}

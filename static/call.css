@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contc{
+    min-height: 100vh;
+    background-color: #ffd6d6;
+}
+
+h2{
+    text-align: center;
+    padding-top: 23px;
+    color: #2c261e;
+    font-size: 40px;
+}
+.editpc{
+    height: 650px;
+    width: 600px;
+    border: 2px solid #ffcbcb;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #ffcbcb;
+}
+p{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 74px 30px;
+    width: 47%;
+    height: 10%;
+    background-color: #ffdada;
+}
+.editpc li{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 74px 30px;
+}

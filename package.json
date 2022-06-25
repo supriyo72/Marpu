@@ -1,0 +1,19 @@
+{
+  "name": "marpu-foundation",
+  "version": "1.0.0",
+  "description": "Marpu Foundation is a NGO. It collectes funds for the social service and for the betterment of the society.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "Supriyo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  }
+}

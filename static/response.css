@@ -1,0 +1,36 @@
+.boxx{
+    flex-direction: column;
+}
+#container{
+    height:1000px;
+}
+.form{
+    margin: auto;
+    width: 50%;
+}
+.myform{
+    height: 70%;
+    width: 77%;
+}
+
+
+
+
+#missionsection{
+    height:1100px;
+}
+.cardb{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#missionsection div.card{
+    margin: auto;
+    width: 45%;
+    margin-bottom: 20px;
+}
+#missionsection h1{
+    font-size: 20px ;
+}
